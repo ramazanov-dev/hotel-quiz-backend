@@ -1,0 +1,26 @@
+{
+  "name": "ts-project-scaffold",
+  "main": "dist/index.js",
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "husky": "^8.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "start": "bash scripts/start.sh",
+    "dev": "bash scripts/dev.sh",
+    "lint": "bash scripts/lint.sh",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0",
+    "yet-another-http": "^0.1.3"
+  }
+}
