@@ -1,6 +1,5 @@
-# TypeScript project scaffold
-
-This is scaffold for building TypeScript projects.
+# Hotel quiz backend
+Backend for my own quiz app
 
 All sources must be placed in _./src_ folder
 
